@@ -11,6 +11,10 @@ namespace LatinDict
         static void Main(string[] args)
         {
             string command;
+            string[] dict = new string[] {
+                "caput-huvud", "videre-se", "pater-far, pappa", "arbor-träd",
+                "luna-måne", "movere-flytta", "urbs-stad"
+            };
             Console.WriteLine("Välkommen till ordlistan!");
             Console.WriteLine("Skriv 'sluta' för att sluta!");
             do
