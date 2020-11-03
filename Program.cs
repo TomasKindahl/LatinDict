@@ -12,7 +12,7 @@ namespace LatinDict
         {
             Console.WriteLine("Välkommen till ordlistan!");
             Console.WriteLine("Skriv 'sluta' för att sluta!");
-
+            Console.Write("> ");
         }
     }
 }
