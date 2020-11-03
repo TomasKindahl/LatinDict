@@ -10,9 +10,15 @@ namespace LatinDict
     {
         static void Main(string[] args)
         {
+            string command;
             Console.WriteLine("Välkommen till ordlistan!");
             Console.WriteLine("Skriv 'sluta' för att sluta!");
-            Console.Write("> ");
+            do
+            {
+                Console.Write("> ");
+                command = Console.ReadLine();
+                Console.WriteLine("Läst kommando: {0}", command);
+            } while (command != "sluta");
         }
     }
 }
